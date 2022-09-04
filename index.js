@@ -3,7 +3,9 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("utils");
 
-const generateMarkdown = require("./utils/generateMarkdown");
+const generateMarkdown = require("./Develop/utils/generateMarkdown");
+
+const licenses = ['None', 'MIT', 'BSD', 'GPL', 'Apache'];
 
 // TODO: Create an array of questions for user input
 const questions = [{
