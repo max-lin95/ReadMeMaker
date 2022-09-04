@@ -1,0 +1,22 @@
+{
+  "name": "readmemaker",
+  "version": "1.0.0",
+  "description": "read me maker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/max-lin95/ReadMeMaker.git"
+  },
+  "author": "Max",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/max-lin95/ReadMeMaker/issues"
+  },
+  "homepage": "https://github.com/max-lin95/ReadMeMaker#readme",
+  "dependencies": {
+    "inquirer": "8.2.4"
+  }
+}
