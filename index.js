@@ -1,9 +1,9 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
-const util = require("utils");
+const util = require("util");
 
-const generateMarkdown = require("./Develop/utils/generateMarkdown");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 const licenses = ['None', 'MIT', 'BSD', 'GPL', 'Apache'];
 
@@ -15,7 +15,7 @@ const questions = [{
 }, {
     type: "input",
     message: "Enter a description",
-    name: "Table of Contents"
+    name: "Description"
 }, {
     type: "input",
     message: "What are the installation instructions?",
@@ -31,7 +31,7 @@ const questions = [{
 }, {
     type: "input",
     message: "What are the contribution guidelines?",
-    name: "Contribution"
+    name: "Contributing"
 }, {
     type: "input",
     message: "What tests are being used?",

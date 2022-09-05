@@ -51,31 +51,34 @@ function generateMarkdown(data) {
     ${answers.description}
 
   ## Table of Contents
-    [Description](#description)
-    [Installation](#installation)
-    [Usage](#usage)
-    [License](#license)
-    [Contributing](#contributing)
-    [Tests](#tests)
-    [Questions](#questions)
+    [Description](#Description)
+    [Installation](#Installation)
+    [Usage](#Usage)
+    [License](#License)
+    [Contributing](#Contributing)
+    [Tests](#Tests)
+    [Questions](#Questions)
 
   ## Installation
-    ${answers.installation};
+    ${answers.Installation};
 
   ## Usage
-    ${answers.usage};
+    ${answers.Usage};
 
   ## License
-    ${answers.license}; 
+    ${answers.License}; 
   
   ## Contributing
-    ${answers.contributing};
+    ${answers.Contributing};
 
   ## Tests
-    ${answers.tests};
+    ${answers.Tests};
 
   ## Questions
-    ${answers.questions};   
+    Email ${answers.Questions}; with any questions.
+    Visit my GitHub link here: ${ansewrs.ghLink}
+    Email me at: ${answers.Email}
+   
 
 `;
 }
