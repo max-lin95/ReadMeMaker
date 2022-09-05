@@ -60,7 +60,22 @@ function generateMarkdown(data) {
     [Questions](#questions)
 
   ## Installation
-    ${answers.installation}
+    ${answers.installation};
+
+  ## Usage
+    ${answers.usage};
+
+  ## License
+    ${answers.license}; 
+  
+  ## Contributing
+    ${answers.contributing};
+
+  ## Tests
+    ${answers.tests};
+
+  ## Questions
+    ${answers.questions};   
 
 `;
 }
